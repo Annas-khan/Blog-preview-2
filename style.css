@@ -1,0 +1,53 @@
+* {
+    /* background-color: hsl(47, 88%, 63%); */
+    font-family: "Figtree", sans-serif;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    border:  0.5rem outset rgb(18, 17, 17);
+    border-top: 0.1rem solid black;
+    border-left: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 20rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.content-below {
+    padding: 1rem;
+}
+
+.design-image {
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.avatar {
+    max-width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.name {
+   font-weight: 600;
+   display: flex;
+    align-items: center;
+}
+
+h3 {
+    background-color:  hsl(47, 88%, 63%);
+    max-width: 5rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    font-size: small;
+    font-weight: 800;
+}
